@@ -1,8 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: [
+    "./src/**/*.{html,ts}",
+    './node_modules/tw-elements/dist/js/**/*.js'
+  ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        abel : ['"Abel"']
+      }
+    },
   },
-  plugins: [],
+  plugins: [
+    require('tw-elements/dist/plugin')
+  ],
 }

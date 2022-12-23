@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Ird-fablab';
+  title = 'Co-Fab in Bondy - Le fablab made in Bondy !';
 }
